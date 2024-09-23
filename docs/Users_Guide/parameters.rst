@@ -11,7 +11,6 @@ The parameters file is in JSON format.  The repository includes an example calle
 * sensit_hour_offset - time offset, in hours, to add to raw sensit data. Required when sensor_type is SENSIT.
 * sensit_vars_interpolated - list of sensit variable names to be interpolated when unifying the time coordinates of the SENSIT readings. Required when sensor_type is SENSIT.
 * sensit_met_sensors - list (often just one) of which of the SENSIT sensors has meteorological data (sensor ID(s)). Required when sensor_type is SENSIT.
-* sensit_z - the height of the SENSIT sensors. Required when sensor_type is SENSIT.
 * sensit_data_start_datetime - the datetime of the start of the period of SENSIT data to be processed. Required when sensor_type is SENSIT.
 * sensit_data_duration - the duration of the period of SENSIT data to be processed.  The sum of this and sensit_data_start_datetime would give you the end datetime. Required when sensor_type is SENSIT.
 * sensit_time_increment - the time increment, in seconds, by which to unify the time coordiantes of the SENSIT readings. Required when sensor_type is SENSIT.
