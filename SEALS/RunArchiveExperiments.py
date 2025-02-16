@@ -22,7 +22,7 @@ if ADEDI:
               ]
 else:
     test_suites = [['1leakExp',
-                'PATH_TO_ARCHIVE_EMISSIONS_METADATA/SENSIT_1leakExp_metadata_ADED1.csv', 
+                'PATH_TO_ARCHIVE_EMISSIONS_METADATA/SENSIT_1leakExp_metadata_ADED2.csv', 
                 'PATH_TO_TRAINED_MODEL/modelFile.keras',
                 'PATH_TO_ARCHIVE_DATA/']
               ]
